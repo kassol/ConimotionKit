@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable public class ConimotionButton: UIButton, OniMotoble {
+@IBDesignable public class ConimotionButton: UIButton, OniMotoble, Corner {
 
     @IBInspectable public var autoRun: Bool = true
     @IBInspectable public var animationType: String?
@@ -49,5 +49,12 @@ import UIKit
     // MARK: - Private
     private func configInspectableProperties() {
         configAnimatableProperties()
+    }
+    
+    
+    @IBInspectable public var cornerRadius: CGFloat = CGFloat.NaN {
+        didSet {
+            configCornerRadius()
+        }
     }
 }

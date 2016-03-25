@@ -16,6 +16,7 @@
 		BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BBE1CA513920009FF44 /* ViewController.m */; };
 		BD2B0BC51CA514900009FF44 /* OnimotionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BC41CA514900009FF44 /* OnimotionType.swift */; };
 		BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */; };
+		BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BCD1CA52F540009FF44 /* Corner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BD2B0BBE1CA513920009FF44 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BD2B0BC41CA514900009FF44 /* OnimotionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnimotionType.swift; sourceTree = "<group>"; };
 		BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		BD2B0BCD1CA52F540009FF44 /* Corner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Corner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 		BD2B0BC61CA51F3F0009FF44 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				BD2B0BB81CA505D20009FF44 /* Onimotoble.swift */,
+				BD2B0BCB1CA52E780009FF44 /* Animation */,
+				BD2B0BCC1CA52E890009FF44 /* Apperance */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -118,6 +121,22 @@
 				BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */,
 			);
 			name = Extension;
+			sourceTree = "<group>";
+		};
+		BD2B0BCB1CA52E780009FF44 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BB81CA505D20009FF44 /* Onimotoble.swift */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		BD2B0BCC1CA52E890009FF44 /* Apperance */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BCD1CA52F540009FF44 /* Corner.swift */,
+			);
+			name = Apperance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +214,7 @@
 				BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */,
 				BD2B0BBB1CA510840009FF44 /* ConimotionButton.swift in Sources */,
 				BD2B0BA61CA4ED060009FF44 /* AppDelegate.swift in Sources */,
+				BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */,
 				BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */,
 				BD2B0BB91CA505D20009FF44 /* Onimotoble.swift in Sources */,
 			);

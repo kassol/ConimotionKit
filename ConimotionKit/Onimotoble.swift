@@ -51,114 +51,113 @@ public extension OniMotoble where Self: UIView {
     }
     
     public func onimote(completion: OnimotobleCompletion? = nil) {
-        guard let animationTypeString = animationType else {
+        guard let unwrappedAnimationTypeString = animationType, animationType = OnimotionType(rawValue: unwrappedAnimationTypeString) else {
             return
         }
-        switch animationTypeString {
-        case OnimotionType.SlideInLeft.name():
+        
+        switch animationType {
+        case .SlideInLeft:
             slideInLeft(completion)
-        case OnimotionType.SlideInRight.name():
+        case .SlideInRight:
             slideInRight(completion)
-        case OnimotionType.SlideInDown.name():
+        case .SlideInDown:
             slideInDown(completion)
-        case OnimotionType.SlideInUp.name():
+        case .SlideInUp:
             slideInUp(completion)
-        case OnimotionType.SlideOutLeft.name():
+        case .SlideOutLeft:
             slideOutLeft(completion)
-        case OnimotionType.SlideOutRight.name():
+        case .SlideOutRight:
             slideOutRight(completion)
-        case OnimotionType.SlideOutDown.name():
+        case .SlideOutDown:
             slideOutDown(completion)
-        case OnimotionType.SlideOutUp.name():
+        case .SlideOutUp:
             slideOutUp(completion)
-        case OnimotionType.SqueezeInLeft.name():
+        case .SqueezeInLeft:
             squeezeInLeft(completion)
-        case OnimotionType.SqueezeInRight.name():
+        case .SqueezeInRight:
             squeezeInRight(completion)
-        case OnimotionType.SqueezeInDown.name():
+        case .SqueezeInDown:
             squeezeInDown(completion)
-        case OnimotionType.SqueezeInUp.name():
+        case .SqueezeInUp:
             squeezeInUp(completion)
-        case OnimotionType.SqueezeOutLeft.name():
+        case .SqueezeOutLeft:
             squeezeOutLeft(completion)
-        case OnimotionType.SqueezeOutRight.name():
+        case .SqueezeOutRight:
             squeezeOutRight(completion)
-        case OnimotionType.SqueezeOutDown.name():
+        case .SqueezeOutDown:
             squeezeOutDown(completion)
-        case OnimotionType.SqueezeOutUp.name():
+        case .SqueezeOutUp:
             squeezeOutUp(completion)
-        case OnimotionType.FadeIn.name():
+        case .FadeIn:
             fadeIn(completion)
-        case OnimotionType.FadeOut.name():
+        case .FadeOut:
             fadeOut(completion)
-        case OnimotionType.FadeOutIn.name():
+        case .FadeOutIn:
             fadeOutIn(completion)
-        case OnimotionType.FadeInOut.name():
+        case .FadeInOut:
             fadeInOut(completion)
-        case OnimotionType.FadeInLeft.name():
+        case .FadeInLeft:
             fadeInLeft(completion)
-        case OnimotionType.FadeInRight.name():
+        case .FadeInRight:
             fadeInRight(completion)
-        case OnimotionType.FadeInDown.name():
+        case .FadeInDown:
             fadeInDown(completion)
-        case OnimotionType.FadeInUp.name():
+        case .FadeInUp:
             fadeInUp(completion)
-        case OnimotionType.FadeOutLeft.name():
+        case .FadeOutLeft:
             fadeOutLeft(completion)
-        case OnimotionType.FadeOutRight.name():
+        case .FadeOutRight:
             fadeOutRight(completion)
-        case OnimotionType.FadeOutDown.name():
+        case .FadeOutDown:
             fadeOutDown(completion)
-        case OnimotionType.FadeOutUp.name():
+        case .FadeOutUp:
             fadeOutUp(completion)
-        case OnimotionType.SqueezeFadeInLeft.name():
+        case .SqueezeFadeInLeft:
             squeezeFadeInLeft()
-        case OnimotionType.SqueezeFadeInRight.name():
+        case .SqueezeFadeInRight:
             squeezeFadeInRight()
-        case OnimotionType.SqueezeFadeInDown.name():
+        case .SqueezeFadeInDown:
             squeezeFadeInDown()
-        case OnimotionType.SqueezeFadeInUp.name():
+        case .SqueezeFadeInUp:
             squeezeFadeInUp()
-        case OnimotionType.SqueezeFadeOutLeft.name():
+        case .SqueezeFadeOutLeft:
             squeezeFadeOutLeft()
-        case OnimotionType.SqueezeFadeOutRight.name():
+        case .SqueezeFadeOutRight:
             squeezeFadeOutRight()
-        case OnimotionType.SqueezeFadeOutDown.name():
+        case .SqueezeFadeOutDown:
             squeezeFadeOutDown()
-        case OnimotionType.SqueezeFadeOutUp.name():
+        case .SqueezeFadeOutUp:
             squeezeFadeOutUp()
-        case OnimotionType.ZoomIn.name():
+        case .ZoomIn:
             zoomIn(completion)
-        case OnimotionType.ZoomOut.name():
+        case .ZoomOut:
             zoomOut(completion)
-        case OnimotionType.Shake.name():
+        case .Shake:
             shake(completion)
-        case OnimotionType.Pop.name():
+        case .Pop:
             pop(completion)
-        case OnimotionType.FlipX.name():
+        case .FlipX:
             flipX(completion)
-        case OnimotionType.FlipY.name():
+        case .FlipY:
             flipY(completion)
-        case OnimotionType.Morph.name():
+        case .Morph:
             morph(completion)
-        case OnimotionType.Squeeze.name():
+        case .Squeeze:
             squeeze(completion)
-        case OnimotionType.Flash.name():
+        case .Flash:
             flash(completion)
-        case OnimotionType.Wobble.name():
+        case .Wobble:
             wobble(completion)
-        case OnimotionType.Swing.name():
+        case .Swing:
             swing(completion)
-        case OnimotionType.Rotate.name():
+        case .Rotate:
             rotate(completion: completion)
-        case OnimotionType.RotateCCW.name():
+        case .RotateCCW:
             rotate(clockwise: false, completion: completion)
-        case OnimotionType.MoveTo.name():
+        case .MoveTo:
             moveTo(completion)
-        case OnimotionType.MoveBy.name():
+        case .MoveBy:
             moveBy(completion)
-        default:
-            return
         }
     }
     

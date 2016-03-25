@@ -19,6 +19,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncf-pR-gNc" customClass="ConimotionButton" customModule="ConimotionKitDemo" customModuleProvider="target">
                                 <rect key="frame" x="164" y="319" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.33333333329999998" green="0.73725490199999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Shake"/>
