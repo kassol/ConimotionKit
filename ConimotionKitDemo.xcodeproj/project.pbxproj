@@ -17,6 +17,8 @@
 		BD2B0BC51CA514900009FF44 /* OnimotionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BC41CA514900009FF44 /* OnimotionType.swift */; };
 		BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */; };
 		BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BCD1CA52F540009FF44 /* Corner.swift */; };
+		BD2B0BD01CA534340009FF44 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BCF1CA534340009FF44 /* Border.swift */; };
+		BD2B0BD31CA535F70009FF44 /* BorderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BD21CA535F70009FF44 /* BorderSide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		BD2B0BC41CA514900009FF44 /* OnimotionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnimotionType.swift; sourceTree = "<group>"; };
 		BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
 		BD2B0BCD1CA52F540009FF44 /* Corner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Corner.swift; sourceTree = "<group>"; };
+		BD2B0BCF1CA534340009FF44 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		BD2B0BD21CA535F70009FF44 /* BorderSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderSide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 				BD2B0BC61CA51F3F0009FF44 /* Protocol */,
 				BD2B0BC81CA51F5B0009FF44 /* Extension */,
 				BD2B0BC71CA51F4D0009FF44 /* View */,
-				BD2B0BC41CA514900009FF44 /* OnimotionType.swift */,
+				BD2B0BD11CA535B20009FF44 /* Enum */,
 			);
 			path = ConimotionKit;
 			sourceTree = "<group>";
@@ -135,8 +139,18 @@
 			isa = PBXGroup;
 			children = (
 				BD2B0BCD1CA52F540009FF44 /* Corner.swift */,
+				BD2B0BCF1CA534340009FF44 /* Border.swift */,
 			);
 			name = Apperance;
+			sourceTree = "<group>";
+		};
+		BD2B0BD11CA535B20009FF44 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BC41CA514900009FF44 /* OnimotionType.swift */,
+				BD2B0BD21CA535F70009FF44 /* BorderSide.swift */,
+			);
+			name = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +225,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2B0BC51CA514900009FF44 /* OnimotionType.swift in Sources */,
+				BD2B0BD31CA535F70009FF44 /* BorderSide.swift in Sources */,
 				BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */,
 				BD2B0BBB1CA510840009FF44 /* ConimotionButton.swift in Sources */,
 				BD2B0BA61CA4ED060009FF44 /* AppDelegate.swift in Sources */,
 				BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */,
+				BD2B0BD01CA534340009FF44 /* Border.swift in Sources */,
 				BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */,
 				BD2B0BB91CA505D20009FF44 /* Onimotoble.swift in Sources */,
 			);
