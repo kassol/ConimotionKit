@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		BD2B0BA61CA4ED060009FF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BA51CA4ED060009FF44 /* AppDelegate.swift */; };
-		BD2B0BA81CA4ED060009FF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BA71CA4ED060009FF44 /* ViewController.swift */; };
 		BD2B0BAB1CA4ED060009FF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2B0BA91CA4ED060009FF44 /* Main.storyboard */; };
 		BD2B0BAD1CA4ED060009FF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2B0BAC1CA4ED060009FF44 /* Assets.xcassets */; };
 		BD2B0BB01CA4ED060009FF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2B0BAE1CA4ED060009FF44 /* LaunchScreen.storyboard */; };
+		BD2B0BB91CA505D20009FF44 /* Onimotoble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BB81CA505D20009FF44 /* Onimotoble.swift */; };
+		BD2B0BBB1CA510840009FF44 /* ConimotionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BBA1CA510840009FF44 /* ConimotionButton.swift */; };
+		BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BBE1CA513920009FF44 /* ViewController.m */; };
+		BD2B0BC51CA514900009FF44 /* OnimotionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BC41CA514900009FF44 /* OnimotionType.swift */; };
+		BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD2B0BA21CA4ED060009FF44 /* ConimotionKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConimotionKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2B0BA51CA4ED060009FF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD2B0BA71CA4ED060009FF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD2B0BAA1CA4ED060009FF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD2B0BAC1CA4ED060009FF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2B0BAF1CA4ED060009FF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD2B0BB11CA4ED060009FF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2B0BB81CA505D20009FF44 /* Onimotoble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onimotoble.swift; sourceTree = "<group>"; };
+		BD2B0BBA1CA510840009FF44 /* ConimotionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConimotionButton.swift; sourceTree = "<group>"; };
+		BD2B0BBC1CA513920009FF44 /* ConimotionKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConimotionKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD2B0BBD1CA513920009FF44 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD2B0BBE1CA513920009FF44 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD2B0BC41CA514900009FF44 /* OnimotionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnimotionType.swift; sourceTree = "<group>"; };
+		BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +65,13 @@
 		BD2B0BA41CA4ED060009FF44 /* ConimotionKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BD2B0BC01CA513A00009FF44 /* Controllers */,
 				BD2B0BA51CA4ED060009FF44 /* AppDelegate.swift */,
-				BD2B0BA71CA4ED060009FF44 /* ViewController.swift */,
 				BD2B0BA91CA4ED060009FF44 /* Main.storyboard */,
 				BD2B0BAC1CA4ED060009FF44 /* Assets.xcassets */,
 				BD2B0BAE1CA4ED060009FF44 /* LaunchScreen.storyboard */,
 				BD2B0BB11CA4ED060009FF44 /* Info.plist */,
+				BD2B0BBC1CA513920009FF44 /* ConimotionKitDemo-Bridging-Header.h */,
 			);
 			path = ConimotionKitDemo;
 			sourceTree = "<group>";
@@ -68,8 +79,45 @@
 		BD2B0BB71CA4ED1B0009FF44 /* ConimotionKit */ = {
 			isa = PBXGroup;
 			children = (
+				BD2B0BC61CA51F3F0009FF44 /* Protocol */,
+				BD2B0BC81CA51F5B0009FF44 /* Extension */,
+				BD2B0BC71CA51F4D0009FF44 /* View */,
+				BD2B0BC41CA514900009FF44 /* OnimotionType.swift */,
 			);
 			path = ConimotionKit;
+			sourceTree = "<group>";
+		};
+		BD2B0BC01CA513A00009FF44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BBD1CA513920009FF44 /* ViewController.h */,
+				BD2B0BBE1CA513920009FF44 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BD2B0BC61CA51F3F0009FF44 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BB81CA505D20009FF44 /* Onimotoble.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		BD2B0BC71CA51F4D0009FF44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BBA1CA510840009FF44 /* ConimotionButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD2B0BC81CA51F5B0009FF44 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B0BC91CA51F950009FF44 /* CALayerExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2B0BA81CA4ED060009FF44 /* ViewController.swift in Sources */,
+				BD2B0BC51CA514900009FF44 /* OnimotionType.swift in Sources */,
+				BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */,
+				BD2B0BBB1CA510840009FF44 /* ConimotionButton.swift in Sources */,
 				BD2B0BA61CA4ED060009FF44 /* AppDelegate.swift in Sources */,
+				BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */,
+				BD2B0BB91CA505D20009FF44 /* Onimotoble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +311,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ConimotionKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.riverflows.ConimotionKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConimotionKitDemo/ConimotionKitDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -270,10 +326,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ConimotionKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.riverflows.ConimotionKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConimotionKitDemo/ConimotionKitDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};

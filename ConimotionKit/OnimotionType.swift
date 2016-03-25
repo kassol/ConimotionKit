@@ -1,0 +1,173 @@
+//
+//  File.swift
+//  ConimotionKitDemo
+//
+//  Created by 张旭 on 3/25/16.
+//  Copyright © 2016 Kassol. All rights reserved.
+//
+
+import Foundation
+
+@objc public enum OnimotionType: Int {
+    case SlideInLeft
+    case SlideInRight
+    case SlideInDown
+    case SlideInUp
+    case SlideOutLeft
+    case SlideOutRight
+    case SlideOutDown
+    case SlideOutUp
+    case SqueezeInLeft
+    case SqueezeInRight
+    case SqueezeInDown
+    case SqueezeInUp
+    case SqueezeOutLeft
+    case SqueezeOutRight
+    case SqueezeOutDown
+    case SqueezeOutUp
+    case FadeIn
+    case FadeOut
+    case FadeOutIn
+    case FadeInOut
+    case FadeInLeft
+    case FadeInRight
+    case FadeInDown
+    case FadeInUp
+    case FadeOutLeft
+    case FadeOutRight
+    case FadeOutDown
+    case FadeOutUp
+    case SqueezeFadeInLeft
+    case SqueezeFadeInRight
+    case SqueezeFadeInDown
+    case SqueezeFadeInUp
+    case SqueezeFadeOutLeft
+    case SqueezeFadeOutRight
+    case SqueezeFadeOutDown
+    case SqueezeFadeOutUp
+    case ZoomIn
+    case ZoomOut
+    case Shake
+    case Pop
+    case FlipX
+    case FlipY
+    case Morph
+    case Squeeze
+    case Flash
+    case Wobble
+    case Swing
+    case Rotate
+    case RotateCCW
+    case MoveTo
+    case MoveBy
+    case NaN
+    
+    func name() -> String {
+        switch self {
+        case .SlideInLeft:
+            return "SlideInLeft"
+        case .SlideInRight:
+            return "SlideInRight"
+        case .SlideInDown:
+            return "SlideInDown"
+        case .SlideInUp:
+            return "SlideInUp"
+        case .SlideOutLeft:
+            return "SlideOutLeft"
+        case .SlideOutRight:
+            return "SlideOutRight"
+        case .SlideOutDown:
+            return "SlideOutDown"
+        case .SlideOutUp:
+            return "SlideOutUp"
+        case .SqueezeInLeft:
+            return "SqueezeInLeft"
+        case .SqueezeInRight:
+            return "SqueezeInRight"
+        case .SqueezeInDown:
+            return "SqueezeInDown"
+        case .SqueezeInUp:
+            return "SqueezeInUp"
+        case .SqueezeOutLeft:
+            return "SqueezeOutLeft"
+        case .SqueezeOutRight:
+            return "SqueezeOutRight"
+        case .SqueezeOutDown:
+            return "SqueezeOutDown"
+        case .SqueezeOutUp:
+            return "SqueezeOutUp"
+        case .FadeIn:
+            return "FadeIn"
+        case .FadeOut:
+            return "FadeOut"
+        case .FadeOutIn:
+            return "FadeOutIn"
+        case .FadeInOut:
+            return "FadeInOut"
+        case .FadeInLeft:
+            return "FadeInLeft"
+        case .FadeInRight:
+            return "FadeInRight"
+        case .FadeInDown:
+            return "FadeInDown"
+        case .FadeInUp:
+            return "FadeInUp"
+        case .FadeOutLeft:
+            return "FadeOutLeft"
+        case .FadeOutRight:
+            return "FadeOutRight"
+        case .FadeOutDown:
+            return "FadeOutDown"
+        case .FadeOutUp:
+            return "FadeOutUp"
+        case .SqueezeFadeInLeft:
+            return "SqueezeFadeInLeft"
+        case .SqueezeFadeInRight:
+            return "SqueezeFadeInRight"
+        case .SqueezeFadeInDown:
+            return "SqueezeFadeInDown"
+        case .SqueezeFadeInUp:
+            return "SqueezeFadeInUp"
+        case .SqueezeFadeOutLeft:
+            return "SqueezeFadeOutLeft"
+        case .SqueezeFadeOutRight:
+            return "SqueezeFadeOutRight"
+        case .SqueezeFadeOutDown:
+            return "SqueezeFadeOutDown"
+        case .SqueezeFadeOutUp:
+            return "SqueezeFadeOutUp"
+        case .ZoomIn:
+            return "ZoomIn"
+        case .ZoomOut:
+            return "ZoomOut"
+        case .Shake:
+            return "Shake"
+        case .Pop:
+            return "Pop"
+        case .FlipX:
+            return "FlipX"
+        case .FlipY:
+            return "FlipY"
+        case .Morph:
+            return "Morph"
+        case .Squeeze:
+            return "Squeeze"
+        case .Flash:
+            return "Flash"
+        case .Wobble:
+            return "Wobble"
+        case .Swing:
+            return "Swing"
+        case .Rotate:
+            return "Rotate"
+        case .RotateCCW:
+            return "RotateCCW"
+        case .MoveTo:
+            return "MoveTo"
+        case .MoveBy:
+            return "MoveBy"
+        default:
+            return ""
+        }
+    }
+}
