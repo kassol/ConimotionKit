@@ -20,6 +20,7 @@
 		BD2B0BD01CA534340009FF44 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BCF1CA534340009FF44 /* Border.swift */; };
 		BD2B0BD31CA535F70009FF44 /* BorderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BD21CA535F70009FF44 /* BorderSide.swift */; };
 		BDA906101CAA189E006A7F38 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA9060F1CAA189E006A7F38 /* Rotation.swift */; };
+		BDA906121CAA1E70006A7F38 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA906111CAA1E70006A7F38 /* Shadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BD2B0BCF1CA534340009FF44 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 		BD2B0BD21CA535F70009FF44 /* BorderSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderSide.swift; sourceTree = "<group>"; };
 		BDA9060F1CAA189E006A7F38 /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		BDA906111CAA1E70006A7F38 /* Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				BD2B0BCD1CA52F540009FF44 /* Corner.swift */,
 				BD2B0BCF1CA534340009FF44 /* Border.swift */,
 				BDA9060F1CAA189E006A7F38 /* Rotation.swift */,
+				BDA906111CAA1E70006A7F38 /* Shadow.swift */,
 			);
 			name = Apperance;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */,
 				BD2B0BD01CA534340009FF44 /* Border.swift in Sources */,
 				BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */,
+				BDA906121CAA1E70006A7F38 /* Shadow.swift in Sources */,
 				BD2B0BB91CA505D20009FF44 /* Onimotoble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

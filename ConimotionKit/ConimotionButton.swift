@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable public class ConimotionButton: UIButton, OniMotoble, Corner, Border, Rotation {
+@IBDesignable public class ConimotionButton: UIButton, OniMotoble, Corner, Border, Rotation, Shadow {
 
     @IBInspectable public var autoRun: Bool = true
     @IBInspectable public var animationType: String?
@@ -79,6 +79,30 @@ import UIKit
     @IBInspectable public var rotate: CGFloat = CGFloat.NaN {
         didSet {
             configRotation()
+        }
+    }
+    
+    @IBInspectable public var shadowColor: UIColor? {
+        didSet {
+            configShadowColor()
+        }
+    }
+    
+    @IBInspectable public var shadowRadius: CGFloat = CGFloat.NaN {
+        didSet {
+            configShadowRadius()
+        }
+    }
+    
+    @IBInspectable public var shadowOpacity: CGFloat = CGFloat.NaN {
+        didSet {
+            configShadowOpacity()
+        }
+    }
+    
+    @IBInspectable public var shadowOffset: CGPoint = CGPoint(x: CGFloat.NaN, y: CGFloat.NaN) {
+        didSet {
+            configShadowOffset()
         }
     }
 }
