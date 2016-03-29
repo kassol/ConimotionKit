@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  OnimotionType.swift
 //  ConimotionKitDemo
 //
 //  Created by 张旭 on 3/25/16.

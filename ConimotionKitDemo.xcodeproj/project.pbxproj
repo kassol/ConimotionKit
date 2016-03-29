@@ -19,6 +19,7 @@
 		BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BCD1CA52F540009FF44 /* Corner.swift */; };
 		BD2B0BD01CA534340009FF44 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BCF1CA534340009FF44 /* Border.swift */; };
 		BD2B0BD31CA535F70009FF44 /* BorderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B0BD21CA535F70009FF44 /* BorderSide.swift */; };
+		BDA906101CAA189E006A7F38 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA9060F1CAA189E006A7F38 /* Rotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BD2B0BCD1CA52F540009FF44 /* Corner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Corner.swift; sourceTree = "<group>"; };
 		BD2B0BCF1CA534340009FF44 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 		BD2B0BD21CA535F70009FF44 /* BorderSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderSide.swift; sourceTree = "<group>"; };
+		BDA9060F1CAA189E006A7F38 /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				BD2B0BCD1CA52F540009FF44 /* Corner.swift */,
 				BD2B0BCF1CA534340009FF44 /* Border.swift */,
+				BDA9060F1CAA189E006A7F38 /* Rotation.swift */,
 			);
 			name = Apperance;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				BD2B0BCA1CA51F950009FF44 /* CALayerExtension.swift in Sources */,
 				BD2B0BBB1CA510840009FF44 /* ConimotionButton.swift in Sources */,
 				BD2B0BA61CA4ED060009FF44 /* AppDelegate.swift in Sources */,
+				BDA906101CAA189E006A7F38 /* Rotation.swift in Sources */,
 				BD2B0BCE1CA52F540009FF44 /* Corner.swift in Sources */,
 				BD2B0BD01CA534340009FF44 /* Border.swift in Sources */,
 				BD2B0BBF1CA513920009FF44 /* ViewController.m in Sources */,
@@ -391,6 +395,7 @@
 				BD2B0BB61CA4ED060009FF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

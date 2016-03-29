@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable public class ConimotionButton: UIButton, OniMotoble, Corner, Border {
+@IBDesignable public class ConimotionButton: UIButton, OniMotoble, Corner, Border, Rotation {
 
     @IBInspectable public var autoRun: Bool = true
     @IBInspectable public var animationType: String?
@@ -73,6 +73,12 @@ import UIKit
     @IBInspectable public var borderSide: String? {
         didSet {
             configBorder()
+        }
+    }
+    
+    @IBInspectable public var rotate: CGFloat = CGFloat.NaN {
+        didSet {
+            configRotation()
         }
     }
 }
